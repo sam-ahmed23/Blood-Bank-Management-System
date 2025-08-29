@@ -79,12 +79,16 @@ WSGI_APPLICATION = 'bloodbankmanagement.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
+import dj_database_url
+import os
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+    'default': dj_database_url.config(
+        default=os.environ.get("DATABASE_URL")  # Render will inject this
+    )
 }
+
+
 
 
 # Password validation
