@@ -84,9 +84,10 @@ import os
 
 DATABASES = {
     'default': dj_database_url.config(
-        default=os.environ.get("DATABASE_URL")  # Render will inject this
+        default=os.environ.get("DATABASE_URL")
     )
 }
+
 
 
 
