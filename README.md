@@ -51,5 +51,5 @@ This repository contains **all project files, screenshots, and documentation** t
 - Designed **role-based dashboards** for Admin, Donors, and Patients  
 - Created **database structure** using SQLite3 for donors, patients, blood stock, and requests  
 - Implemented **real-time stock updates and request tracking**  
-- Documented the project and created professional reports and presentations
+
 
