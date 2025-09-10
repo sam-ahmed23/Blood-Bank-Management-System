@@ -50,36 +50,36 @@ This repository contains **all project files, screenshots, and documentation** t
 
 1. Clone the Repository
 
- git clone https://github.com/YOUR-USERNAME/Blood-Bank-Management-System.git
- cd Blood-Bank-Management-System
+   git clone https://github.com/YOUR-USERNAME/Blood-Bank-Management-System.git
+   cd Blood-Bank-Management-System
 
 2. Create & Activate Virtual Environment
 
-python -m venv venv
+   python -m venv venv
 
- 3.Windows: venv\Scripts\activate
+3. Windows: venv\Scripts\activate
 
- Linux/Mac: source venv/bin/activate
+   Linux/Mac: source venv/bin/activate
 
- 4.Install Dependencies
+4.Install Dependencies
 
- pip install -r requirements.txt
+   pip install -r requirements.txt
 
- 5. Apply Migrations (this will auto-create SQLite database db.sqlite3)
+5. Apply Migrations (this will auto-create SQLite database db.sqlite3)
 
- python manage.py makemigrations
- python manage.py migrate
+   python manage.py makemigrations
+   python manage.py migrate
  
 6. Create Superuser (Admin Account)
 
-python manage.py createsuperuser
+  python manage.py createsuperuser
 
 7.Run the Server
 
-python manage.py runserver
+  python manage.py runserver
 
-Open 👉 http://127.0.0.1:8000/
- in your browser.
+  Open 👉 http://127.0.0.1:8000/
+  in your browser.
 
 ## Internship Contribution
 - Developed the **complete BBMS system** including all modules  
