@@ -61,11 +61,11 @@ This repository contains **all project files, screenshots, and documentation** t
 
    Linux/Mac: source venv/bin/activate
 
-4.Install Dependencies
+ 4. Install Dependencies
 
    pip install -r requirements.txt
 
-5. Apply Migrations (this will auto-create SQLite database db.sqlite3)
+ 5. Apply Migrations (this will auto-create SQLite database db.sqlite3)
 
    python manage.py makemigrations
    python manage.py migrate
