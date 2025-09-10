@@ -32,17 +32,11 @@ This repository contains **all project files, screenshots, and documentation** t
     
 - **Role-Based Access Control**
   - Separate dashboards and permissions for Admin, Donors, and Patients
-    
-- **Secure Login & Signup**
-  - Authentication and session management for all user types
-    
+
 - **Responsive UI**
   - Mobile-friendly and clean layouts using Bootstrap
-    
-- **Reports and History**
-  - Detailed donation and request history for analysis and management
 
----
+  ---
 
 ## Tech Stack / Tools Used
 -  **Frontend:** HTML, CSS, Bootstrap, JavaScript  
