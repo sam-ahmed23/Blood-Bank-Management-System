@@ -63,18 +63,18 @@ This repository contains **all project files, screenshots, and documentation** t
 
  4. Install Dependencies
 
-   pip install -r requirements.txt
+      pip install -r requirements.txt
 
  5. Apply Migrations (this will auto-create SQLite database db.sqlite3)
 
-   python manage.py makemigrations
-   python manage.py migrate
+      python manage.py makemigrations
+      python manage.py migrate
  
 6. Create Superuser (Admin Account)
 
-  python manage.py createsuperuser
+    python manage.py createsuperuser
 
-7.Run the Server
+7. Run the Server
 
   python manage.py runserver
 
