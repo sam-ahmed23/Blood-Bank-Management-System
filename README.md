@@ -76,10 +76,10 @@ This repository contains **all project files, screenshots, and documentation** t
 
 7. Run the Server
 
-  python manage.py runserver
+    python manage.py runserver
 
-  Open 👉 http://127.0.0.1:8000/
-  in your browser.
+    Open 👉 http://127.0.0.1:8000/
+    in your browser.
 
 ## Internship Contribution
 - Developed the **complete BBMS system** including all modules  
