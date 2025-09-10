@@ -1,7 +1,6 @@
 # Blood Bank Management System (BBMS) Live Project : *(Add link here)*
 
 ## Links
-GitHub Repository: https://github.com/sam-ahmed23/Blood-Bank-Management-System  
 GitHub Profile: https://github.com/sam-ahmed23  
 LinkedIn Profile: https://www.linkedin.com/in/sameerahmed23
 
